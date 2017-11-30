@@ -13,6 +13,7 @@ public class FlightPage {
 	 //Initiation of the driver
 	 public FlightPage(WebDriver driver){
 		 this.driver = driver;
+		 System.out.println("driver");
 	 }
 	 
 	 //Finding the elements in the page
